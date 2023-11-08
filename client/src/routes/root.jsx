@@ -28,6 +28,11 @@ export default function Root() {
 
         <p>Uncover the secrets of data architecture, AI-driven insights, and the future of data science as you journey through the Data Galaxy. Our sessions are carefully curated to cater to data enthusiasts of all levels, from rookies to seasoned experts.</p>
 
+      </div>
+      <div>
+        <Outlet />
+      </div>
+      <div>
         <p>🧠 Dive Deep into Davide Mauri's Mind 🧠</p>
 
         <p>Ever wondered what goes on in the mind of a data visionary? We've got the exclusive scoop! Dive into Davide Mauri's thought-provoking blog post and gain unparalleled insights that will revolutionize your perspective on data.</p>

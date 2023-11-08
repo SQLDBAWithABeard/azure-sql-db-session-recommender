@@ -1,8 +1,8 @@
 
-*, 
-*::before, 
+*,
+*::before,
 *::after {
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
 html:focus,
@@ -14,18 +14,18 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-img, 
-picture, 
-video, 
-canvas, 
+img,
+picture,
+video,
+canvas,
 svg {
     display: block;
     max-width: 100%;
 }
 
-input, 
-button, 
-textarea, 
+input,
+button,
+textarea,
 select {
     font: inherit;
 }
@@ -245,7 +245,7 @@ select {
 	--content-width-desktop: 1248px;
 	--content-width-tablet: 792px;
 	--content-width-mobile: 300px;
-	/* This ensures that even when a screen width is exactly the size of a content 
+	/* This ensures that even when a screen width is exactly the size of a content
     break point there is still some padding between the viewport and content. */
 	--content-width-padding-desktop: 40px;
 	--content-width-padding-tablet: 30px;
@@ -256,7 +256,7 @@ select {
 	--grid-gap-desktop: 48px;
 	--grid-gap-tablet: 24px;
 	--grid-gap-mobile: 12px;
-	/* This defines the vertical spacing between sections of content on any given page 
+	/* This defines the vertical spacing between sections of content on any given page
     (and is also used as the row gap for grids) */
 	--vertical-gap-desktop: 60px;
 	--vertical-gap-tablet: 32px;
@@ -270,7 +270,8 @@ select {
 
 	--color-foreground: var(--color-neutrals-additionals-grey-20);
 	--color-background: var(--color-neutrals-light-grey-98);
-	--color-title-font: var(--color-midnight-blue-primary);
+	/*--color-title-font: var(--color-midnight-blue-primary); */
+	--color-title-font: var(--color-neutrals-light-white);
 	--color-navbar-menu-icon-fill: var(--color-brand-purple-primary);
 	--color-footer-foreground: var(--color-neutrals-dark-grey-24);
 	--color-footer-background: var(--color-neutrals-light-grey-90);
@@ -466,7 +467,7 @@ button {
 button {
 	color: var(--color-dotnet-solid-btn-accent-foreground);
 	border-color: var(--color-dotnet-outline-btn-accent-border);
-	background-color: var(--color-dotnet-solid-btn-accent-background);	
+	background-color: var(--color-dotnet-solid-btn-accent-background);
 }
 
 textarea:hover,
@@ -493,7 +494,7 @@ button:active {
 
 #searchbox {
 	padding-left: 2rem;
-	padding-right: 2rem;	
+	padding-right: 2rem;
 }
 
 #searchbox>div form {
@@ -573,7 +574,7 @@ h1 {
 	background-clip: text;
 	-webkit-background: var(--color-primary-gradient-webkit);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	
+	-webkit-text-fill-color: transparent;
 }
 
 h1.font-title-2 {
